@@ -8,7 +8,7 @@ Este código resolverá ecuaciones polinomiales de la forma:
 
 donde <a href="https://www.codecogs.com/eqnedit.php?latex=a_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a_i" title="a_i" /></a> y n pertenecen a los reales
 
-Es claro que no resulta complicado color exponentes y subindices dentro de una terminal, por lo que las expresiones las debemos escribir de la forma: 
+Es claro que resulta complicado color exponentes y subindices dentro de una terminal, por lo que las expresiones las debemos escribir de la forma: 
 
 **ax^n+bx^n-1+...+cx^1+d**
 
