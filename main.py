@@ -49,7 +49,7 @@ def derivar(terminos,variable):
     derivada = ''
     for termino in terminos:
         if int(termino['exponente'])>0:
-            derivada+= str(int(termino['exponente'])*int(termino['valor']))+variable+'^'+str(int(termino['exponente'])-1)+"+"
+            derivada+= str(int(termino['exponente'])*float(termino['valor']))+variable+'^'+str(int(termino['exponente'])-1)+"+"
     temp = tratamiento(derivada)
     derivadaL = separar(temp)
     return derivada,derivadaL
